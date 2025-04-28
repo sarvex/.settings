@@ -4,8 +4,6 @@ enabled:
     uuid: 75dba0f9-d5c5-4902-99c4-cd3d60ec7147
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
-  - id: Alibaba-Cloud.tongyi-lingma
-    uuid: b90347d7-e182-4b37-8314-4cde59e48d27
   - id: Angular.ng-template
     uuid: a92d457e-6f3f-4167-8087-1a54e1b6e00e
   - id: astro-build.astro-vscode
@@ -78,6 +76,8 @@ enabled:
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
+  - id: johnpapa.vscode-peacock
+    uuid: 5a7017bf-c571-4d77-b902-6e56b16f539a
   - id: julialang.language-julia
     uuid: 038dd41f-4a41-48e3-87de-ab2ea4310780
   - id: justusadam.language-haskell
@@ -110,6 +110,8 @@ enabled:
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
   - id: ms-vscode.cmake-tools
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
+  - id: ms-vscode.hexeditor
+    uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
   - id: ms-vscode.makefile-tools
     uuid: e09cf600-90a1-414e-92a0-031f1a5391c6
   - id: ms-vscode.powershell
@@ -120,6 +122,8 @@ enabled:
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
   - id: mtxr.sqltools
     uuid: 6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b
+  - id: NomicFoundation.hardhat-solidity
+    uuid: dada159b-1dfe-49fc-a369-0e08ecdff9b3
   - id: nrwl.angular-console
     uuid: d10af6bf-270f-4cf0-b94b-1bea4bda1e2e
   - id: rangav.vscode-thunder-client
@@ -138,6 +142,8 @@ enabled:
     uuid: 4ce92b26-476a-4dd1-bf50-a8df00b87a74
   - id: rust-lang.rust-analyzer
     uuid: 06574cb4-e5dc-4631-8174-a543a4533621
+  - id: SanjulaGanepola.github-local-actions
+    uuid: 4a2d7bb5-c18c-468d-8090-606f0568d535
   - id: scala-lang.scala
     uuid: c6f87c08-f5ca-4f59-8cee-bc29464dcbfb
   - id: scalameta.metals
@@ -148,6 +154,8 @@ enabled:
     uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: sourcegraph.cody-ai
     uuid: 20d12578-788a-48ca-96b6-43abf885dc34
+  - id: streetsidesoftware.code-spell-checker
+    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: sumneko.lua
     uuid: 3a15b5a7-be12-47e3-8445-88ee3eabc8b2
   - id: svelte.svelte-vscode
@@ -178,6 +186,8 @@ enabled:
     uuid: b0f06c6b-24fb-4d7b-bd79-bc5e2fa17312
   - id: Vue.volar
     uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
+  - id: WakaTime.vscode-wakatime
+    uuid: f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3
   - id: WallabyJs.console-ninja
     uuid: 6a994cdf-21a5-4e80-b0a5-601acdad9bf9
   - id: yzhang.markdown-all-in-one

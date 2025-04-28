@@ -2,7 +2,20 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "dev.containers.gpuAvailability": "all",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "codeium.enableCodeLens": false,
+  "cSpell.userWords": ["actix", "healthz"],
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -99,6 +112,9 @@
   ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
   "files.autoGuessEncoding": true,
   "files.autoSave": "afterDelay",
   "files.eol": "\n",
@@ -119,7 +135,6 @@
   "git.rememberPostCommitCommand": true,
   "git.terminalGitEditor": true,
   "git.useCommitInputAsStashMessage": true,
-  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
   "githubLocalActions.dockerDesktopPath": "/Applications/Docker.app",
   "gitlens.advanced.messages": {
     "suppressIntegrationRequestTimedOutWarning": true
@@ -142,6 +157,7 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "python.createEnvironment.trigger": "off",
+  "rust-analyzer.lens.enable": false,
   "search.quickOpen.includeSymbols": true,
   "search.seedWithNearestWord": true,
   "search.showLineNumbers": true,
@@ -156,57 +172,6 @@
     }
   ],
   "sonarlint.disableTelemetry": true,
-  "stylelint.packageManager": "pnpm",
-  "stylelint.snippet": [
-    "astro",
-    "css",
-    "html",
-    "javascript",
-    "javascriptreact",
-    "less",
-    "markdown",
-    "mdx",
-    "postcss",
-    "sass",
-    "scss",
-    "source.css.styled",
-    "source.markdown.math",
-    "styled-css",
-    "sugarss",
-    "svelte",
-    "typescript",
-    "typescriptreact",
-    "vue-html",
-    "vue-postcss",
-    "vue",
-    "xml",
-    "xsl"
-  ],
-  "stylelint.validate": [
-    "astro",
-    "css",
-    "html",
-    "javascript",
-    "javascriptreact",
-    "less",
-    "markdown",
-    "mdx",
-    "postcss",
-    "sass",
-    "scss",
-    "source.css.styled",
-    "source.markdown.math",
-    "styled-css",
-    "sugarss",
-    "svelte",
-    "typescript",
-    "typescriptreact",
-    "vue-html",
-    "vue-postcss",
-    "vue",
-    "xml",
-    "xsl"
-  ],
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.allowMnemonics": true,
   "terminal.integrated.cursorBlinking": true,
@@ -214,6 +179,7 @@
   "terminal.integrated.enableImages": true,
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.env.osx": {},
   "terminal.integrated.fontFamily": "LiberationMono Nerd Font Mono, LiberationMonoNerdFontMono, LiterationMono Nerd Font Mono, LiterationMonoNerdFontMono",
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.minimumContrastRatio": 7,
@@ -227,34 +193,17 @@
   "window.commandCenter": true,
   "window.density.editorTabHeight": "compact",
   "window.restoreFullscreen": true,
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.commandPalette.experimental.suggestCommands": true,
   "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
+  "workbench.iconTheme": "catppuccin-mocha",
   "workbench.list.smoothScrolling": true,
-  "vscode-edge-devtools.webhintInstallNotification": true,
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "tabnine.experimentalAutoImports": true,
-  "snyk.advanced.cliReleaseChannel": "preview",
-  "snyk.folderConfigs": [
-    {
-      "folderPath": "/Users/sarvex/Sources/aysnc-rust",
-      "baseBranch": ""
-    }
-  ],
-  "workbench.activityBar.location": "top",
-  "snyk.trustedFolders": ["/Users/sarvex/Sources/fahrenheit-celcius", "/Users/sarvex/Sources/aysnc-rust"],
-  "cSpell.userWords": ["actix", "healthz"],
-  "codeium.enableCodeLens": false,
-  "rust-analyzer.lens.enable": false,
   "yaml.schemas": {
     "/Users/sarvex/.vscodium-insiders/extensions/continue.continue-1.1.24-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
-  },
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
-  "workbench.iconTheme": "catppuccin-mocha",
-  "terminal.integrated.env.osx": {}
+  }
 }
